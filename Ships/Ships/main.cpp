@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include "hex.h";
+#include "hex_grid.h"
 
 int main() 
 {
-	Hex* x = new Hex(false, nullptr, 20.5, 30.2, -10.3);
-	std::cout << x->get_x() << "\n" << x->get_y() <<std::endl;
+	Hex_Grid x = Hex_Grid(3);
+	Hex* y = x.find_neighbor(-2, 2, -4);
 
-	Hex* z = new Hex(false, nullptr, 10.3, -1.7, -10.3);
-
-	std::cout << x->get_x() << "\n" << x->get_y() <<std::endl;
-	std::cout << z->get_x() << "\n" << z->get_y()<< std::endl;
 	return 0;
 }

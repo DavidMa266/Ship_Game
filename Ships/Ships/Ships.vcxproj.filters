@@ -32,5 +32,8 @@
     <ClInclude Include="ship.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="hex_grid.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

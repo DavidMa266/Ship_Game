@@ -1,22 +1,22 @@
 #pragma once
 #ifndef HEX_H
 #define HEX_H
-#include <iostream>
+
 #include <vector>
 #include "ship.h"
 
 class Hex {
-protected:
+private:
 	Ship* ship;
 	bool has_ship;
-	int x, y;
 
 public:
-	Hex(int x, int y);
+	Hex(int x, int z);
+	const int x;
+	const int z;
+
 	Ship* get_ship();
 	bool get_has_ship();
-	int get_x();
-	int get_y();
 };
 
 
