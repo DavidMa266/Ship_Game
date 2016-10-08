@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\david\documents\github\ship_game\ships\ships\main.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  hex.cpp
+  Generating Code...
+  Ships.vcxproj -> C:\Users\David\Documents\GitHub\Ship_Game\Ships\Debug\Ships.exe
+  Ships.vcxproj -> C:\Users\David\Documents\GitHub\Ship_Game\Ships\Debug\Ships.pdb (Partial PDB)
